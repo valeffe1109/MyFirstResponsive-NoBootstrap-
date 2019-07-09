@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Gugi" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+
+<div class="container ">
+<header class="header clearfix">
+    <a href="" class="header__logo">Welcome on my Site!</a>
+    <a href="" class="header__icon__bar">
+      <span></span>
+      <span></span>
+      <span></span>
+    </a>
+    <ul class="header__menu animate">
+      <li class="header__menu__item"><a href="https://www.facebook.com/valerio.fusco.100">My Facebook</a> </li>
+      <li class="header__menu__item"><a href="mailto:valeriofusco1109v@gmail.com">Write me an EMail!</a> </li>
+      <li class="header__menu__item"><a href="https://www.instagram.com/valeriofusco1109">My Instagram</a> </li>
+</ul>
+</div>
+
+  </header>
+  <section class="cover">
+
+</section>
+  </div>
+</div>
+
+
+<!--Sono state aggiunte 3 colonne ed un div container (uguale a quello dell'header)-->
+<div class="container clearfix">
+
+<div class="secondary col">
+
+  <h2>ABOUT ME :</h2>
+
+  <p>Hi , my name is Valerio Fusco   and i am twenty one years old . I was born and I live in  Perugia .
+  Since I was a child  I approached the  technology falling in love with the computers world. My first
+experience  about "programming"  was about  to create  retro-server of videogames like habbo or metin2.  </p>
+</div>
+
+<div class="primary col">
+
+<h2>HOBBIES</h2>
+
+
+  <p> When I was fifteen  I started play rugby until  nineteen years old .
+     I got bored  of rugby  and seeing videos on facebook and I started to get addicted to MMA and Grappling.
+     In just two years I arrived as  finalist for the italian MMA national team
+     and I'm also a grappling athlete.
+
+   Actually I train in Gloria Fight Center in Rome . </p>
+
+</div>
+
+
+<div class="tertiary col">
+
+  <h2>WHY  A PROGRAMMER?</h2>
+
+  <p> I always loved computers and smartphones . I want to increase my  knowledge about programming
+
+and make one of my passion a job
+I am a determined person
+I like to evolve and learn to improve my skills as programmer .
+I think that Strive School is a good opportunity for my career
+</p>
+
+</div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+
+
+<script>
+
+
+$(function() {
+  $(".header__icon__bar").click(function(e){
+    e.preventDefault();
+    $(".header__menu").toggleClass('is-open');
+});
+
+
+});
+
+  </script>
+
+
+
+  <footer class="main_footer">
+
+<span> &copy;2019 Valerio Fusco </span>
+
+  </footer>
+
+
+
+</body>
+</html>
